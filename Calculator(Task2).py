@@ -8,7 +8,7 @@ while True:
     try:
         op = input("Please choose the desired operation ( +, -, *, / ): ")
     except ValueError:
-        print("Please enter a valid number!")
+        print("Please enter a valid operation!")
         continue
     try:
         b = float(input("Please enter the second number: "))
